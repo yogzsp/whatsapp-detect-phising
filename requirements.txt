@@ -1,0 +1,7 @@
+argparse
+pandas
+scikit-learn
+matplotlib
+seaborn
+joblib
+requests
