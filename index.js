@@ -60,7 +60,7 @@ async function connectToWhatsApp () {
             let fromMe = m.messages[0].key.fromMe || false;
             // console.log(m.messages[0])
 
-            if(senderFrom == "120363322348026477@g.us" && !fromMe){
+            if(!fromMe){
                 // console.log(msg)
                 const detectedURLs = await findURLs(msg);
                 detectedURLs.forEach(async linkData => {
